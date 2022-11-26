@@ -1,0 +1,150 @@
+@import url('https://fonts.googleapis.com/css2?family=Mouse+Memoirs&family=Nunito:wght@700&family=Poppins:wght@500&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'poppins',sans-serif;
+}
+#navbar{
+    position: sticky;
+    top:0;
+    left:0;
+    z-index: 100;
+    padding: .5rem ;
+    background-color:white
+    background-color: ;
+    box-shadow: 5px 5px 20px black;
+}
+.navbar .navbar-brand{
+font-weight: 800;
+color: green;
+
+
+}
+
+#navbarSupportedContent a:hover{
+    border-bottom: 2px solid green;
+}
+#navbarSupportedContent button{
+    width: 7rem;
+    background-color: green;
+    color: white;
+    margin-top: 5px;
+}
+
+section{
+   width: 100%;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    
+
+}
+/*home*/
+#home{
+    background-image:linear-gradient(rgba(0,0,0,.8),rgba(0,0,0,.1)), url(chef.jpg);
+    background-size: cover;
+    background-position: center;
+    
+}
+    #home h1{
+        
+        font-size: 50px;
+        color: white;
+        text-shadow: 2px 2px .5px white,
+        2px 2px .5px white,
+        2px 2px .5px white;
+        
+    }
+    #home p{
+        color: black;
+        background-color: white;
+        display: flex;
+        margin: 20px;
+    }
+::selection{
+        background: pink;
+        color: pink;
+    }
+    .img-fluid{
+        background-color: black;
+    }
+    #row{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    #about div h1{
+        color: cadetblue;
+        font-weight: 800;
+    }
+    .row .card{
+        display: flex;
+        justify-content: center;
+    }
+    /*products*/
+    #product h1{
+        font-weight: 800;
+    }
+    
+    #product img{
+        width: 200px;
+        height: 200px;
+    }
+ .card{
+        width: 250px;
+        height: 250px;
+        border:none;
+        margin: auto;
+        box-shadow: 1px 1px 20px black;
+        
+    }
+    .card img{
+        margin: auto;
+    }
+    .card h5{
+        text-align: center;
+
+    }
+   /*foooter*/
+
+   #footer{
+    background-color: rgba(0, 0, 0, 0.836);
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    min-height: 250px;
+    position: relative;
+    margin-top: 50px;
+    box-shadow:  inset 0px 30px 30px black;
+   }
+   ion-icon{
+    color: white;
+    width: 30px;
+    height: 30px;
+    margin: 15px;
+    opacity: 50%;
+
+   }
+   ion-icon:hover{
+    opacity: 1;
+   }
+   .icon{
+    display: inline;
+    margin: 30px;
+   }
+   #footer h1{
+    color: white;
+   font-size: 30px;
+   text-shadow: 2px 2px 40px white;
+   margin: 10px;
+   opacity: .8;
+   }
+   #footer h1:hover{
+    opacity: 1;
+   }
+   
